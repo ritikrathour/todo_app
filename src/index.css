@@ -17,20 +17,16 @@ input{
   padding: 20px;
   text-align: center;
 }
-
-
 .todo-list {
   margin-top: 20px;
 }
-
 .todo-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; 
 }
-
 .todo-item button {
   margin-left: 10px;
 }
@@ -40,13 +36,16 @@ input{
 }
 .todo-item span{
   text-transform: capitalize;
+  align-items: start;
 }
 form {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-
+.flex{
+  display: flex;
+}
 form input {
   flex: 1;
   padding: 10px;
@@ -72,4 +71,17 @@ background-color: red;
 }
 .delete_btn{
  background-color: red; 
+}
+
+@media (max-width:480px) {
+  .app-container {
+    max-width: 320px; 
+    padding: 10px; 
+  } 
+  .todo-item { 
+    padding: 5px 0; 
+  }
+  form input {
+    width: 100px;
+  }
 }
