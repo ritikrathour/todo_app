@@ -1,0 +1,75 @@
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+input{
+  outline: none;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 5px;
+}
+.app-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-item button {
+  margin-left: 10px;
+}
+.todo-item input{
+  height: 26px;
+  padding: 2px 5px;
+}
+.todo-item span{
+  text-transform: capitalize;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: rgb(73, 73, 254);
+}
+.todo-item button{
+  padding: 10px 15px;
+}
+.save_btn{
+  background-color: rgb(73, 73, 254);
+}
+.cancel_btn{
+background-color: red;
+}
+.edit_btn{
+  background-color: rgb(109, 139, 0);
+}
+.delete_btn{
+ background-color: red; 
+}
